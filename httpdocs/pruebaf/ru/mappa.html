@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Санремо- Интерактивная карта </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Cerca nella mappa interattiva di Sanremo e trova la tua destinazione. Affina la ricerca per brand e offerte" />
+		<meta name="keywords" content="cartina sanremo, trova" />
+		<meta name="google-site-verification" content="sotszM6wSuLJtsV44WJhI8AfCwiQlc2fkb0Zc4RF6ag" />
+		<meta name="robots" content="INDEX,FOLLOW" />
+		<meta name="DC.title" content="Sanremo ON" />
+		<meta name="DC.Identifier" content="http://www.sanremo-on.com/"/>
+		<meta name="DC.Publisher" content="ciao[at]esedigital.com" />
+		<meta name="geo.region" content="IT-IM" />
+		<meta name="geo.placename" content="Sanremo" />
+		<meta name="DC.Language" content="it" />
+		<meta name="Generator" content="Esedigital " />
+		<meta name="author" content="Esedigital" />
+		<meta name="distribution" content="global" />
+		<meta name="Revisit" content="7 days" />
+		<meta name="category" content="Ristoranti, alberghi, negozi, cinema" />
+		<meta name="rating" content="Safe For Kids" />
+		<meta name="copyright" content="*" />
+		<link rel="icon" type="image/ico" href="sanremo-on.com/images/favicon.png">
+		<link rel="shortcut icon" href="sanremo-on.com/images/favicon.png" type="image/x-icon">
+		<link rel="canonical" href="http://www.sanremo-on.com/">
+		<!-- paloma****Codigo analitics-->
+		<script>
+				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				  ga('create', 'UA-64835947-1', 'auto');
+				  ga('send', 'pageview');
+		</script>
+		<!-- end-->
+
+		  <link href="http://sanremo-on.com/pruebaf/css/bootstraps.min.css" rel="stylesheet">
+            <link href="http://sanremo-on.com/pruebaf/css/bootstrap-select.css" rel="stylesheet">
+            <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" href="/fonts/stylesheet.css">
+            <link rel="stylesheet" type="text/css" href="http://sanremo-on.com/pruebaf/css/fractionslider.css" />
+            <link rel="stylesheet" type="text/css" href="http://sanremo-on.com/pruebaf/css/jquery.mmenu.all.css" />
+            <link rel="stylesheet" href="http://sanremo-on.com/pruebaf/css/css.css">
+            <link rel="stylesheet" href="http://sanremo-on.com/pruebaf/css/responsive.css">
+            <link rel="stylesheet" href="http://sanremo-on.com/pruebaf/css/css.mappa.css">
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+            <link rel="icon" type="image/png" href="/images/favicon.png" />
+            <!-- ICONOS -->
+                <link rel="stylesheet" href="/css/icons/css/icons.css">
+                <link rel="stylesheet" href="/css/icons/css/ie7/ie7.css">
+                <!-- FIN ICONOS -->
+	</head>
+	<body>
+		<style>
+		.contenido-servicio {
+		    font-size: 11.5px;
+		    margin: -10px auto 11px 65px;
+		    max-width: 208px;
+		}
+		</style>
+		<script>
+			(function(){
+				// document.querySelector('.membership').style.display = 'none';
+			    document.getElementsByTagName('body')[0].innerHTML = document.getElementsByTagName('body')[0].innerHTML+'<div class="cargando"><figure style="padding:0 3em;overflow:visible;"><div class="spinner"></div></figure></div>';
+			   })();
+		</script>
+		<div id="header-container" class="Fixed">
+			<header id="header">
+				<div class="menu-movil visible-xs">
+					<!-- <img src="/images/responsive/Menu-Lineas.png" alt=""> -->
+					<a href="#mmovil" class="mm"><i class="fa fa-bars"></i></a>
+				</div>
+				<div class="logo" title="" ><a href="/ru" class="enlace-logotipo" id="logo-full"><img class="hidden-xs" src="/images/Logo-Sanremo-On.png" alt=""></a>
+					                       <a href="/ru" class="enlace-logotipo" id="logo-resp"><img class="visible-xs" src="/images/responsive/Logo.png" alt=""></a>
+			    </div>
+				<div id="global">
+					<ul class="membership">
+						<li>
+							<a data-target="#login_panel" data-toggle="modal" title="" href="#" data-original-title="Login" class="dropdown cambio" title="Registro ">
+								 <span class="hidden-xs">есть аккаунт? Логин &nbsp;</span> 
+								<span class="icon-user ico-mapa-nav2"></span>
+								<!-- <div class="usuarioIcono"></div> -->
+							</a>
+						</li>
+						<!--// .membership.sign lzv -->
+					</ul>
+					<!--// .membership -->
+					<ul class="languages">
+                        <li class="cambio" data-imgClass="idioma showIdiomas">
+                            <a class="dropdown" href="#">
+                                <span class="lingua-text"> язык </span>
+                                <span class="icon-iconosmondo ico-mapa-nav3"></span>
+                                <!-- <div class="idiomaIcono"></div> -->
+                            </a>
+                            <div class="idioma-ul">
+                                <ul class="idiomas">
+                                    <li class="en">
+                                        <a title="Inglés" href="/en">
+                                            <img src="/images/UK.png" alt="">
+                                            английский
+                                        </a>
+                                    </li>
+                                    <li class="es">
+                                        <a title="Italiano" href="/it">
+                                            <img src="/images/Italiano.png" alt="">
+                                            итальянский
+                                        </a>
+                                    </li>
+                                     <li class="pt-br">
+                                        <a title="Frances" href="/fr">
+                                            <img src="/images/FRench.png" alt="">
+                                            французский
+                                        </a>
+                                    </li>
+                                    <li class="ru">
+                                        <a title="Ruso" href="/ru">
+                                            <img src="/images/RUssian.png" alt="">
+                                            русский
+                                        </a>
+                                    </li>
+                                    <!--<li class="zh-cn">
+                                        <a title="Chino" href="#">
+                                            <img src="/images/China.png" alt="">
+                                            Chino
+                                        </a>
+                                    </li> -->
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                    </ul>
+				</div>
+				<div id="navigation">
+                    <nav>
+                        <ul class="main">
+                            <li class="home">
+                                <a class="dropdown" title="" href="/ru"><span><i class="fa fa-home ico-casa-nav"></i> ДОМ</span></a>
+                            </li>
+                            <li class="brands">
+
+                                <a class="dropdown" title="Mapa Interactivo" href="/ru/mappa"><span><img src="/images/Mappa.png" alt=""> КАРТА</span></a>
+
+                                <a class="dropdown" title="Mapa Interactivo" href="/ru/mappa"><span><span class="icon-mappa blanco ico-mapa-nav"></span> КАРТА</span></a>
+
+                                <a class="dropdown-mobile" title="" href=""><i class="icon-circle-arrow-right icon-white"></i></a>
+                            </li>
+                            <li class="offers">
+                                <a class="dropdown" title="" href="/ru/negozi"><span>МАГАЗИНЫ</span></a>
+                            </li>
+                            <li class="your-visit">
+                                <a class="dropdown" title="" href="/ru/ristoranti-bar"><span>ЕДА&НАПИТКИ</span></a>
+                            </li>
+                            <li class="guest-services">
+                                <a class="dropdown" title="" href="/ru/hotel"><span>УДОБСТВА</span></a>
+                                <a class="dropdown-mobile" title="" href="grid.html"><i class="icon-circle-arrow-right icon-white"></i></a>
+                            </li>
+                            <!--// .guest-services -->
+                            <li class="chic-travel">
+                                <a class="dropdown" title="" href="/ru/tempo-libero-e-benessere"><span>СВОБОДНОЕ ВРЕМЯ И БЛАГОПОЛУЧИЕ</span></a>
+                                <a class="dropdown-mobile" title="" href="grid.html"><i class="icon-circle-arrow-right icon-white"></i></a>
+                            </li>
+                            <li class="chic-travel">
+                                <a class="dropdown" title="" href="/ru/spettacoli-cinema"><span>СПЕКТАКЛИ И КИНО </span></a>
+                                <a class="dropdown-mobile" title="" href="grid.html"><i class="icon-circle-arrow-right icon-white"></i></a>
+                            </li>
+                            <li class="chic-travel">
+                                <a class="dropdown" title="" href="/ru/news.html"><span>НОВОСТИ</span></a>
+                                <a class="dropdown-mobile" title="/ru/news.html" href=""><i class="icon-circle-arrow-right icon-white"></i></a>
+                            </li>
+                            <li class="whats-on">
+                                <a class="dropdown" title="" href="/ru/servizi.html"><span>УСЛУГИ</span></a>
+                                <a class="dropdown-mobile" title="" href="/ru/servizi.html"><i class="icon-circle-arrow-right icon-white"></i></a>
+                            </li>
+                            <li class="whats-on">
+                                <a class="dropdown" title="" href="/ru/la-citta.html"><span>САНРЕМО</span></a>
+                                <a class="dropdown-mobile" title="" href="/ru/la-citta.html"><i class="icon-circle-arrow-right icon-white"></i></a>
+                            </li>
+                            <!-- <li class="membership sign-in visible-phone">
+                                <a class="dropdown" title="Registro / Inicia sesión" href="/membership"><span>ATTUALITÀ </span></a>
+                            </li> -->
+                        </ul>
+                    </nav>
+                    <nav id="mmovil">
+                        <ul>
+                            <li>
+                                <a href="/ru">
+                                    <i class="fa fa-home"></i>
+                                    <span class="menusito">дом</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/mappa">
+                                    <span class="icon-mappa blanco size-icon2"></span>
+                                    <span class="menusito">карта</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/negozi">
+                                    <span class="icon-negozi blanco size-icon2"></span>
+                                    <span class="menusito">магазины</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/ristoranti-bar">
+                                    <span class="icon-food-drink blanco size-icon2"></span>
+                                    <span class="menusito">еда&напитки</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/hotel">
+                                    <span class="icon-iconos-03 blanco size-icon2"></span>
+                                    <span class="menusito">удобства</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/tempo-libero-e-benessere">
+                                    <span class="icon-tempo-libero blanco size-icon2"></span>
+                                    <span class="menusito">свободное время и благополучие</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/spettacoli-cinema">
+                                    <span class="icon-cinema-e-spettacoli blanco size-icon2"></span>
+                                    <span class="menusito">спектакли и кино</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/news/offerte.html">
+                                    <i class="fa fa-tags"></i>
+                                    <span class="menusito">новости</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/news/eventi.html">
+                                    <i class="fa fa-calendar-o"></i>
+                                    <span class="menusito">услуги</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/news/attualita.html">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <span class="menusito">Новости</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/servizi.html">
+                                    <i class="fa fa-info-circle"></i>
+                                    <span class="menusito">услуги</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/la-citta.html">
+                                    <i class="fa fa-sun-o"></i>
+                                    <span class="menusito">санремо</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/come-arrivare.html">
+                                    <span class="icon-iconosbussola blanco size-icon2"></span>
+                                    <span class="menusito">Приходи к Санремо</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru/chi-siamo.html">
+                                    <i class="fa fa-user"></i>
+                                    <span class="menusito">Кто мы</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="privacy.html">
+                                    <i class="fa fa-copyright"></i>
+                                    <span class="menusito">политика сохранения тайны</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="cookies.html">
+                                    <i class="fa fa-exclamation-triangle"></i>
+                                    <span class="menusito">КУКИ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contatto.html">
+                                    <span class="icon-iconoslettera blanco size-icon2"></span>
+                                    <span class="menusito">Контакты</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="note-legali.html">
+                                    <i class="fa fa-gavel"></i>
+                                    <span class="menusito">ЮРИДИЧЕСКИЕ ОТМЕТКИ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#mm-2">
+                                    <i class="fa fa-language"></i>
+                                    <span class="menusito">язык</span>
+                                </a>
+                                <ul>
+                                    <li class="en">
+                                        <a title="Inglés" href="/en">
+                                            <img src="/images/UK.png" alt="">
+                                            английский
+                                        </a>
+                                    </li>
+                                    <li class="en">
+                                        <a title="Italiano" href="/it">
+                                            <img src="/images/Italiano.png" alt="">
+                                            итальянский
+                                        </a>
+                                     <li class="en">
+                                        <a title="Frances" href="/fr">
+                                            <img src="/images/FRench.png" alt="">
+                                            французский
+                                        </a>
+                                    </li>
+                                    <li class="en">
+                                        <a title="Ruso" href="/ru">
+                                            <img src="/images/RUssian.png" alt="">
+                                            русский
+                                        </a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+			</header>
+		</div>
+		<div class="wrapper">
+			<div class="container">
+				<div class="content">
+					<div class="cuerpo">
+						<div class="row hidden-xs">
+							<ol class="breadcrumb">
+								<li><a href="//sanremo-on.com/ru">ДОМ</a></li>
+								<li class="active"> Интерактивная карта</li>
+							</ol>
+						</div>
+						<div class="row filtros">
+							<div class="col-sm-3">
+								<span class="orange"><strong><span data-field="numeroTotal"></span> НАЙДЕННЫХ РЕЗУЛЬТАТОВ</strong></span>
+							</div>
+							<div class="col-sm-3 col-sm-offset-3">
+								<div class="form-group">
+									<input type="text" placeholder="ПОИСК" search class="search form-control">
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="form-group">
+									<select name="categoria" class="form-control selectpicker" id="categoria">
+										<option value="">БРОНИРУЙ НА</option>
+										<option value="asc">A - Z</option>
+										<option value="desc">Z - A</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row barraMenu">
+							<ul>
+								<li class="mmenuSec Mextras" data-submenu="sub1">
+									<a href="#">
+										<i class="fa fa-search"></i> 
+										<span class="menuNegro">ПОИСК</span>
+									</a>
+								</li>
+								<li class="mmenuSec otro" id="favoritosButton">
+									<a href="#">
+										<i class="fa fa-heart"></i>
+										<span class="menuNegro">ФАВОРИТЫ</span>
+									</a>
+								</li>
+								<li class="mmenuSec otro" id="ofertaButton">
+									<a href="#">
+										<i class="fa fa-tags"></i>
+										<span class="menuNegro">ПРЕДЛОЖЕНИЯ</span>
+									</a>
+								</li>
+								<li class="mmenuSec otro" data-submenu="sub2">
+									<a href="#">
+										<i class="fa fa-info-circle"></i>
+										<span class="menuNegro">УСЛУГИ</span>
+									</a>
+								</li>
+								<li class="mmenuSec otro" id="whereiam">
+									<a href="#">
+										<i class="fa fa-map-marker"></i>
+										<span class="menuNegro">ПОЗИЦИЯ</span>
+									</a>
+								</li>
+							</ul>
+							
+
+							<div class="extras container" id="sub1" style="display:none">
+								<div class="row activaciones">
+									<div class="col-sm-15 col-xs-15 orange active" data-cat="1">
+										<i class="icon-negozi icon"></i>
+										МАГАЗИНЫ
+									</div>
+									<div class="col-sm-15 col-xs-15" data-cat="2">
+										<i class="icon-food-drink icon"></i>
+										Еда&Напитки
+									</div>
+									<div class="col-sm-15 col-xs-15" data-cat="4">
+										<i class="icon-tempo-libero icon"></i>
+										Свободное время  
+									</div>
+									<div class="col-sm-15 col-xs-15" data-cat="5">
+										<i class="icon-cinema-e-spettacoli icon"></i>
+										кино
+									</div>
+									<div class="col-sm-15 col-xs-15" data-cat="3">
+										<i class="icon-iconos-03 icon"></i>
+										Удобства
+									</div>
+								</div>
+								<form action="#" id="buquedaPuntos">
+									<div class="col-sm-15 subcat" data-cat="1">
+										
+									</div>
+									<div class="margin-left20 col-sm-15 subcat" style="display:none" data-cat="2" >
+									</div>
+									<div class="margin-left40 col-sm-15 subcat" style="display:none" data-cat="4">
+									</div>
+									<div class="margin-left60 col-sm-15 subcat" style="display:none" data-cat="5">
+									</div>
+									<div class="margin-left80 col-sm-15 subcat" style="display:none" data-cat="3">
+									</div>
+									<div class="col-sm-12 text-center bus">
+										<input type="submit" id="filtrarR" class="btn btn-success gris" value="Filtra risultati" />
+										<input type="button" id="mostrarTodo" class="btn btn-success gris" value="Guarda tutti" />
+
+									</div>
+								</form>
+									<div class="clearfix"></div>
+							</div>
+
+							<div class="extras container" id="sub2" style="display:none">
+								<form action="#" id="buquedaServicios">
+									<div class="col-sm-15 subcat">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" name="subcats[]" id="parking" value="1">
+												Паркинг
+											</label>
+										</div>
+									</div>
+									<div class="margin-left20 col-sm-15 subcat">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" name="subcats[]" value="2">
+												банкомат
+											</label>
+										</div>
+									</div>
+									<div class="margin-left40 col-sm-15 subcat">
+									</div>
+									<div class="margin-left60 col-sm-15 subcat">
+									</div>
+									<div class="margin-left80 col-sm-15 subcat">
+									</div>
+									<div class="col-sm-12 text-center bus">
+										<input type="submit" id="filtrarRe" class="btn btn-success gris" value="Filtra risultati" />
+										<input type="button" id="servicioButton" class="btn btn-success gris" value="Guarda tutti" />
+										
+									</div>
+								</form>
+									<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="row resultados">
+							<div class="col-sm-8 mapaG"></div>
+							<div class="col-sm-4 lugares">
+								<div class="row resMapa"></div>
+								
+							</div>
+						</div>
+						<div class="row banner">
+
+
+							<div id="myCarousel" class="carousel slide">
+								<ol class="carousel-indicators">
+									
+								</ol>
+								<div class="carousel-inner">
+
+								</div>
+						    </div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-container">
+            <footer>
+                <div class="container">
+                    <div class="row primero">
+                        <div class="logoF"><img src="/images/Sanremo-On-Footer.png" alt=""></div>
+                        <div class="mapaLogo"><span class="icon-mappa blanco ico-mapa-nav"></span> <a href="/ru/mappa" class="footer-link"> Интерактивная карта</a> </div>
+                    </div>
+                    <div class="row segundo">
+                        <div class="menu col-sm-7">
+                            <div class="col-sm-3">
+                                <span class="orange"><strong>Категории</strong></span>
+                                <ul>
+                                    <li><a href="/ru/negozi">Магазины </a></li>
+                                    <li><a href="/ru/ristoranti-bar">Еда&Напитки </a></li>
+                                    <li><a href="/ru/hotel">Удобства </a></li>
+                                    <li><a href="/ru/tempo-libero-e-benessere">Свободное время и благополучие</a></li>
+                                    <li><a href="/ru/spettacoli-cinema">Спектакли и кино</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3">
+                                <span class="orange"><strong>Новости</strong></span>
+                                <ul>
+                                    <li><a href="/ru/news/attualita.html">Актуальность</a></li>
+                                    <li><a href="/ru/news/eventi.html">События</a></li>
+                                    <li><a href="/ru/news/offerte.html">Предложения</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-sm-3">
+                                <span class="orange"><strong>Rete Impresa</strong></span>
+                                <ul>
+                                    <li><a href="/ru/chi-siamo.html">Кто мы</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3">
+                                <span class="orange"><strong> Санремо</strong></span>
+                                <ul>
+                                    <li><a href="/ru/come-arrivare.html">Приходи к Санремо </a></li>
+                                    <li><a href="/ru/la-citta.html">Узнай Санремо</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="social">
+                            <p>Ищи в:</p>
+                            <a href="https://www.facebook.com/sanremoon" target="_blank"><img src="/images/Fb.png" alt=""></a>
+                            <a href="https://twitter.com/SanremoOn" target="_blank"><img src="/images/Twitter.png" alt=""></a>
+                            <a href="https://www.youtube.com/channel/UCz0kZtT62QKyhFB_Hk24jrw" target="_blank"><img src="/images/Youtube.png" alt=""></a>
+                            <a href="https://plus.google.com/u/0/105050793970673159877/posts" target="_blank"><img src="/images/Google-+.png" alt=""></a>
+                            <!-- <a href="#" target="_blank"><img src="/images/Pinterest.png" alt=""></a> -->
+                            <div>
+                            <p class="maginApp">Получите его на:</p>
+                            <a href="https://geo.itunes.apple.com/it/app/sanremo-on/id1031320757?mt=8" target="_blank"><img src="/images/AppleStorelogoOn.png" alt=""></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.ionicframework.myapp802908" target="_blank"><img src="/images/Playstorelogowhite.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ultimo">
+                        <div class="copyright">
+                            Копирайт-Санремо Он сеть предприятий-налог ива 01615270087-2015 все права конфиденциальны
+                            <div class="menuBottom">
+                                <ul class="clase-footer-fr">
+                                    <li><a href="/ru/contatto.html">Контракты</a></li>
+                                    <li><a href="/ru/privacy.html">Политика частной жизни</a></li>
+                                    <li><a href="/ru/note-legali.html">Юридические выписки</a></li>
+                                    <li><a href="/ru/cookies.html">Куки</a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="powered">
+                              питаться от: <a href="http://www.esedigital.com/" target="_blank" class="link-naranja">©Esedigital</a> 
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+		<div id="login_panel" class="modal fade in" style="display: none; ">
+            <div class="sombra" data-dismiss="modal" style="position:fixed,width:100%,height:100%;background:rgba(0,0,0,0.8)"></div>
+            <div class="modal-dialog modal-middle col-xs-12 col-sm-3 no-padding">
+                <div class="modal-content no-padding">
+                    <div class="modal-header text-center">
+                        <h4 id="myModalLabel" class="modal-title">
+                            <!-- <img src="/images/responsive/Login.png"> -->
+                            <span class="icon-user ico-user-nav"></span>
+                            <span class="texto-popup">ДОСТУП В ТВОЙ АККАУНТ</span>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="post" name="login_form" id="login_form" action="#">
+                                <div class="form-group">
+                                    <button class="btn btn-block btn-navy facebook_connect" type="button">
+                                        <i class="fa fa-facebook"></i> &nbsp;
+                                        <strong> WЛОГИН С ФЕЙСБУК</strong>
+                                    </button>
+                                </div>
+                                <div class="form-group separator-text text-center">
+                                    <span>ИЛИ</span>
+                                </div>
+                            <div class="form-group">
+                                <input type="text" required="" placeholder="ИМЯ ПОЛЬЗОВАТЕЛЯ" class="form-control" value="" id="username" name="log">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" required="" placeholder="ПАССВОРД" class="form-control" value="" id="password" name="pwd">
+                            </div>
+                            <!-- Login Button -->
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <span class="descrip"><p class="centrar">Твоя частная жизнь очень важна для нас, не передадим и не продадим третьим лицам твои персональные данные</p></span>
+                                    </div><!-- /.col-md-12 -->
+                                    <div class="col-md-12">
+                                        <span class="descrip"><p class="centrar"><input type="checkbox" value="" id="check-permiso">Описываю правила о<a href="privacy.html" id="permiso">личной жизни на сито</a></p></span>
+                                    </div><!-- /.col-md-12 -->
+                                </div><!-- /.row -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="hidden" value="/directory/demo1/" name="redirect_to">
+                                        <button class="btn btn-block btn-danger" type="submit">
+                                            <strong> ЛОГИН</strong>
+                                        </button>
+                                    </div><!-- /.col-md-12 -->
+                                </div><!-- /.row -->
+                            </div>
+
+                            <hr class="padding-5px">
+
+                            <!-- Sign up Button -->
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                                                    <div class="well well-sm">
+                                            <small><p class="texto-pop">Ещё не на связи, регистрируйся.</p></small>
+                                        </div>
+                                                                </div>
+                                </div><!-- /.row -->
+                            </div>
+
+                        </form>
+                    </div><!-- /.modal-body -->
+
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div>
+		<style>
+			.row.activaciones div {
+			    height: 49px;
+			}
+		</style>
+		
+		<script src="http://sanremo-on.com/pruebaf/js/jquery-1.11.2.min.js"></script>
+        <script src="http://sanremo-on.com/pruebaf/js/bootstrap.min.js"></script>
+        <script src="http://sanremo-on.com/pruebaf/js/bootstrap-select.js"></script>
+        <script src="http://sanremo-on.com/pruebaf/js/autocomplete.js"></script>
+        <script type="text/javascript" src="http://sanremo-on.com/pruebaf/js/jquery.mmenu.min.all.js"></script>
+        <script src="http://sanremo-on.com/pruebaf/js/jquery.mmenu.fixedelements.min.js"></script>
+        <script type="text/javascript" src="http://sanremo-on.com/pruebaf/js/jquery.fractionslider.min.js"></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBHHrSOsjkbAsp2bJeQG5vdHl7CrSQdeUQ&sensor=true"></script>
+        <script type="text/javascript" src="http://sanremo-on.com/pruebaf/js/markerwithlabel.js"></script>
+        <script type="text/javascript" src="http://sanremo-on.com/pruebaf/js/markerclusterer.js"></script>
+        
+        <script>
+            var control = 0;
+        </script>
+        <script src="http://sanremo-on.com/pruebaf/js/md5.js"></script>
+        <script src="http://sanremo-on.com/pruebaf/js/Tools.js"></script>
+        <script type="text/javascript" src="http://sanremo-on.com/pruebaf/js/js.all.js"></script>
+        <script src="http://sanremo-on.com/pruebaf/js/js.mappa.js"></script>
+        <script type="text/javascript" src="http://sanremo-on.com/pruebaf/js/retina.js"></script>
+        <script type="text/javascript" src="http://sanremo-on.com/pruebaf/js/jquery.cookiesdirective.js"></script>
+	</body>
+</html>

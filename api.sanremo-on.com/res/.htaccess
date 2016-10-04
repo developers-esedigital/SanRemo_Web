@@ -1,0 +1,7 @@
+php_value date.timezone "America/Mexico_City" 
+RewriteEngine On
+RewriteBase /sanremoAdmin
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+

@@ -1,0 +1,953 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"key",
+				"keyup	Event"
+			],
+			[
+				"categori",
+				"categoria"
+			],
+			[
+				"categoria",
+				"categoriaNombre"
+			],
+			[
+				"ind",
+				"indexOf(${0:searchValue})	String"
+			],
+			[
+				"appe",
+				"appendChild(${0:aChild})	Node"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"cons",
+				"console.log('$0');"
+			],
+			[
+				"getId",
+				"getIdmicrosite"
+			],
+			[
+				"find",
+				"findOneBy"
+			],
+			[
+				"id",
+				"iduser"
+			],
+			[
+				"mode",
+				"ModelMarca"
+			],
+			[
+				"plu",
+				"plugins	Document"
+			],
+			[
+				"rea",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"micro",
+				"microsite"
+			],
+			[
+				"sub",
+				"subcategoria"
+			],
+			[
+				"evt",
+				"dispatchEvent(${0:event})	EventTarget"
+			],
+			[
+				"base64_",
+				"base64_encode"
+			],
+			[
+				"enco",
+				"base64_encode"
+			],
+			[
+				"name",
+				"nameGal"
+			],
+			[
+				"inner",
+				"innerHTML	Element"
+			],
+			[
+				"disp",
+				"display	Style CSS"
+			],
+			[
+				"getElemen",
+				"getElementsByTagName(${0:name})	Element"
+			],
+			[
+				"Model",
+				"ModelMicrosite"
+			],
+			[
+				"model",
+				"Modelcategoria"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"re",
+				"ready	$(document).ready"
+			],
+			[
+				"get",
+				"getjson	$.getjson()"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"text",
+				"textStatus"
+			],
+			[
+				"_SESI",
+				"_SESSION"
+			],
+			[
+				"s",
+				"session"
+			],
+			[
+				"base_",
+				"base64_decode"
+			],
+			[
+				"apelli",
+				"apellidoMaterno"
+			],
+			[
+				"file_",
+				"file_ext"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"loa",
+				"load_model	CI - Load Model"
+			],
+			[
+				"e",
+				"each	.each()"
+			],
+			[
+				"na",
+				"nacionalidades"
+			],
+			[
+				"lang",
+				"language"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"logo",
+				"logo-img"
+			],
+			[
+				"change",
+				"changeImage"
+			],
+			[
+				"chan",
+				"changeImage"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"z",
+				"z	z-index"
+			],
+			[
+				"mmenus",
+				"mmenuSecHovered"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"at",
+				"attr	.attr() - single"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"template",
+				"templateUrl"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"mme",
+				"mmenuSecHovered"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"un",
+				"unbind	.unbind()"
+			],
+			[
+				"toggle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"conte",
+				"contenido"
+			],
+			[
+				"con",
+				"contenido"
+			],
+			[
+				"mm",
+				"mmenuSecHovered"
+			],
+			[
+				"mouse",
+				"mouseleave	.mouseleave()"
+			],
+			[
+				"slide",
+				"slideDown	.slideDown()"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"select",
+				"selectpicker"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"col-",
+				"col-sm-7"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"br",
+				"border-bottom"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"back",
+				"backgroundColor"
+			],
+			[
+				"c",
+				"css	.css() - single"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/controllers/services.php",
+			"settings":
+			{
+				"buffer_size": 590,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/config/routes.php",
+			"settings":
+			{
+				"buffer_size": 1544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/libraries/REST_Controller.php",
+			"settings":
+			{
+				"buffer_size": 51964,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"plai",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lin",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"fon",
+				"Format CSS: Expanded"
+			],
+			[
+				"sf",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sfto",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"fo",
+				"Format CSS: Expanded"
+			],
+			[
+				"",
+				"Dummy Image: Insert Image"
+			],
+			[
+				"for",
+				"Format CSS: Expanded"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Commit"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/sanremoApi/application/models/modelmicrosite.php",
+		"/C/xampp/htdocs/sanremoApi/application/config/config.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/services.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/hooks/gestion_sesion.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/autoload.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addMicrosite.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/rest.php",
+		"/C/Users/eon2/Documents/datosTrabajo",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/routes.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/config.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelmicrosite.php",
+		"/C/Users/eon2/Downloads/codeigniter-restserver-2.7.1/codeigniter-restserver-2.7.1/application/config/rest.php",
+		"/C/Users/eon2/Downloads/codeigniter-restserver-2.7.1/codeigniter-restserver-2.7.1/application/config/config.php",
+		"/C/Users/eon2/Downloads/codeigniter-restserver-2.7.1/codeigniter-restserver-2.7.1/application/config/autoload.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editMicrosite.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addNoticias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editNoticias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addEvento.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editEvento.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addOfertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editOfertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Evento.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Microsite.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Oferta.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/index2.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/index3.php",
+		"/C/Users/eon2/AppData/Local/Temp/fz3temp-1/admin.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/admin.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Noticia.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelevento.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelofertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelnoticias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/evt.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/ofer.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/not.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/micro.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allMicrosites.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/register.php",
+		"/C/demo/www/js/controllers.js",
+		"/C/Users/eon2/Downloads/codeigniter-restserver-2.7.1/codeigniter-restserver-2.7.1/application/libraries/REST_Controller.php",
+		"/C/demo/www/js/services.js",
+		"/C/demo/www/js/app.js",
+		"/C/demo/www/templates/cal.html",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/register.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/User.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/register2.php",
+		"/C/xampp/htdocs/sanremoAdmin/public/js/js.js",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allOfertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/public/js/tabla.js",
+		"/C/xampp/htdocs/travelTale/application/models/register.php",
+		"/C/xampp/htdocs/travelTale/application/controllers/admin.php",
+		"/C/xampp/htdocs/travelTale/application/views/register.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allNoticias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allCategorias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/libraries/Doctrine.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editUser.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/marc.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelmarca.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allMarcas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addMarca.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editMarca.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allInvitados.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Marca.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allEventos.php",
+		"/C/xampp/htdocs/sanremoAdmin/public/css/style.css",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addCategoria.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/cat.php",
+		"/C/Users/eon2/Downloads/jquery-validation-1.13.1/demo/index.html",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editCategoria.php",
+		"/C/Users/eon2/Downloads/jquery-validation-1.13.1/demo/requirejs/app.js",
+		"/C/xampp/htdocs/sanremoAdmin/.htaccess",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/ofertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/.htaccess",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/config.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/ofertas",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/noticias.php",
+		"/C/Users/eon2/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/eon2/AppData/Local/Temp/fz3temp-1/allMicrosites.php",
+		"/C/Users/eon2/AppData/Local/Temp/fz3temp-1/micro.php",
+		"/C/xampp/htdocs/sanremoAdmin/public/css/admin.css",
+		"/C/xampp/htdocs/sanremoOn/mapa.html",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelcategoria.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Categoria.php",
+		"/C/xampp/htdocs/travelTale/public/js/js.js",
+		"/C/xampp/htdocs/sanremoOn/index.html",
+		"/C/xampp/htdocs/travelTale/application/views/formExperiencia.php",
+		"/C/Users/eon2/Downloads/AdminLTE-2.0.5/AdminLTE-2.0.5/pages/forms/advanced.html",
+		"/C/xampp/htdocs/sanremoAdmin/public/js/Admin.js",
+		"/C/xampp/htdocs/sanremoOn/js/js.grid.js",
+		"/C/xampp/htdocs/sanremoOn/grid.html",
+		"/C/xampp/htdocs/sanremoOn/js/js.microsite.js",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/welcome.php",
+		"/C/xampp/htdocs/sanremoAdmin/index.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/database.php",
+		"/C/Users/eon2/Downloads/sliptree-bootstrap-tokenfield-v0.12.1-15-g9c06df4/sliptree-bootstrap-tokenfield-9c06df4/index.html",
+		"/C/Users/eon2/Downloads/AdminLTE-2.0.5/AdminLTE-2.0.5/pages/forms/editors.html",
+		"/C/xampp/htdocs/travelTale/application/views/index2.php",
+		"/C/xampp/htdocs/travelTale/application/models/modelexperiencia.php",
+		"/C/xampp/htdocs/travelTale/application/hooks/gestion_sesion.php",
+		"/C/xampp/htdocs/travelTale/public/css/style.css",
+		"/C/Users/eon2/Downloads/sliptree-bootstrap-tokenfield-v0.12.1-15-g9c06df4/sliptree-bootstrap-tokenfield-9c06df4/docs-assets/js/typeahead.bundle.js",
+		"/C/Users/eon2/Downloads/sliptree-bootstrap-tokenfield-v0.12.1-15-g9c06df4/sliptree-bootstrap-tokenfield-9c06df4/docs-assets/css/pygments-manni.css",
+		"/C/Users/eon2/Downloads/bootstrap-tagsinput/bootstrap-tagsinput.js",
+		"/C/Users/eon2/Downloads/bootstrap-tagsinput/bootstrap-tagsinput.min.js.map",
+		"/C/Users/eon2/AppData/Local/Temp/Rar$DIa0.190/bootstrap-tagsinput-angular.min.js",
+		"/C/Users/eon2/Downloads/bootstrap-tagsinput/bootstrap-tagsinput.css",
+		"/C/Users/eon2/Downloads/chosen-1.4.2/chosen-1.4.2/chosen.jquery.json",
+		"/C/xampp/htdocs/travelTale/public/js/app.js",
+		"/C/Users/eon2/Downloads/AdminLTE-2.0.5/AdminLTE-2.0.5/pages/forms/general.html",
+		"/C/xampp/htdocs/travelTale/application/models/experiencia.php",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/travelTale/application/config/autoload.php",
+		"/C/xampp/htdocs/travelTale/application/models/Entities/Comentario.php",
+		"/C/xampp/htdocs/travelTale/application/views/login.php",
+		"/C/xampp/htdocs/travelTale/application/models/Entities/Experiencia.php",
+		"/C/xampp/htdocs/travelTale/application/controllers/experiencia.php",
+		"/C/xampp/htdocs/travelTale/public/js/Admin.js",
+		"/C/xampp/htdocs/travelTale/application/libraries/PHPMailerLib.php",
+		"/C/xampp/htdocs/travelTale/application/libraries/PHPMailer/examples/gmail.php",
+		"/C/xampp/htdocs/lord/clases/class.correo.php",
+		"/C/xampp/htdocs/travelTale/application/config/email.php",
+		"/C/Users/eon2/Downloads/PHPMailer-master/PHPMailer-master/examples/gmail.phps",
+		"/C/Users/eon2/Downloads/PHPMailer-master/PHPMailer-master/PHPMailerAutoload.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/travelTale/application/config/routes.php",
+		"/C/xampp/htdocs/travelTale/application/config/config.php",
+		"/C/xampp/htdocs/travelTale/application/config/hooks.php",
+		"/C/Users/eon2/Downloads/noty-2.3.5/noty-2.3.5/demo/allLayouts.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"compressoutput",
+			"hook",
+			"html",
+			"true",
+			"uu",
+			"com",
+			"url",
+			"$title",
+			"getTitle",
+			"creado",
+			"nombre",
+			"md5('logo'.",
+			"creado",
+			"foto",
+			"User",
+			"Microsite",
+			"microsite",
+			"setFoto",
+			"user.png",
+			"user",
+			"user-image",
+			"creado",
+			"nombre",
+			"val",
+			"argument",
+			"microsite",
+			"idmicrosite",
+			"no",
+			"getNombre",
+			"idmicrosite",
+			"getMicroByUser",
+			"endif",
+			"micro",
+			"variable",
+			"integer",
+			"string",
+			"user",
+			"User",
+			"getMicrosite",
+			"Idmicrosite",
+			"getMicrosite",
+			"microsite",
+			"micro",
+			"registro",
+			"micro_perfil",
+			"idioma",
+			"ModelMicrosite",
+			"not",
+			"idmicrosite",
+			"ofer",
+			"ofer/",
+			"Ofer",
+			"ofer",
+			"Noticias",
+			"setFoto",
+			"getpredet",
+			"default",
+			"Noticia",
+			"oferta",
+			"Oferta",
+			"Ofertas",
+			"registro",
+			"Oferta",
+			"oferta",
+			"getId",
+			"microsite",
+			"Noticas",
+			"Ofertas",
+			"ofer",
+			"$estatus",
+			"estatus",
+			"$oferta",
+			"idoferta",
+			"User",
+			"microsite",
+			"oferta",
+			"setIdoferta",
+			"FALSE",
+			"cate",
+			"cat",
+			"email",
+			"getFoto",
+			"r",
+			"getOneBy",
+			"<td></td>",
+			"getNivelusuario",
+			"$value->getEmail()",
+			"<th>Username</th>",
+			"Email",
+			"register",
+			"estatus",
+			"== $value",
+			"getCategoriafk",
+			"punto",
+			"class=\"minimal\"",
+			"getCategoria",
+			"getUser",
+			"user",
+			"categoria",
+			"carga",
+			"categoria",
+			"nombre",
+			"pull-left",
+			"Publicar",
+			"categoria",
+			"getCa",
+			"getCategoria",
+			"getNombre",
+			"default",
+			"setDefa",
+			"setDe",
+			"default",
+			"iduser",
+			"categoria",
+			"45",
+			"->",
+			"$microsite",
+			"User",
+			"setNombre",
+			"principal",
+			"galeria",
+			"['image']",
+			"direccion",
+			"$microsite",
+			"idcategoria",
+			"cat",
+			"Categoria",
+			"cat"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"public/images",
+			"#e8e8e8"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/controllers/services.php",
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/config/routes.php",
+					"settings":
+					{
+						"buffer_size": 1544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1434,
+								1434
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/libraries/REST_Controller.php",
+					"settings":
+					{
+						"buffer_size": 51964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15448,
+								15433
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/sanremoAdmin/sanremoAdmin.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true
+}

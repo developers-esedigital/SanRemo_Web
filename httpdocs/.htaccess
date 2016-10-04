@@ -1,0 +1,59 @@
+RewriteEngine On
+
+# ensure https
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https 
+#RewriteCond %{HTTPS} off
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#RewriteRule http://sanremo-on.com/it/mappa [L,R=301]
+#RewriteRule http://www.sanremo-on.com/it/mappa
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^/]+)/$ $1.html
+#RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.html
+#RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ /$1/$2/$3.html
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+#RewriteRule (.*)$ /$1/ [R=301]
+
+#RewriteRule ^([a-z]{2,2})/news $1/news.html 
+
+#RULES OFERTA
+#RewriteRule ^([a-z]{2,2})/news/offerte $1/news/offerte.html
+RewriteRule ^([a-z]{2,2})/news/offerte/([a-zA-Z0-9_-]*)/([a-zA-Z0-9_-]*.html) $1/news/offerte/nome-offerta.php [QSA,L]
+#RULES NOTICIAS
+#RewriteRule ^([a-z]{2,2})/news/attualita $1/news/attualita.html 
+RewriteRule ^([a-z]{2,2})/news/attualita/([a-zA-Z0-9_-]*)/([a-zA-Z0-9_-]*.html) $1/news/attualita/nome-notizia.php [QSA,L]
+RewriteRule ^([a-z]{2,2})/news/attualita/([a-zA-Z0-9_-]*.html) $1/news/attualita/nome-notizia.php [QSA,L]
+#RULES EVENTO
+#RewriteRule ^([a-z]{2,2})/news/eventi $1/news/eventi.html
+RewriteRule ^([a-z]{2,2})/news/eventi/([a-zA-Z0-9_-]*.html) $1/news/eventi/nome-evento.php [QSA,L]
+
+
+# MICROSITES URL RULES
+RewriteRule ^([a-z]{2,2})/negozi/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+RewriteRule ^([a-z]{2,2})/ristoranti-bar/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+RewriteRule ^([a-z]{2,2})/tempo-libero-e-benessere/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+RewriteRule ^([a-z]{2,2})/spettacoli-cinema/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+RewriteRule ^([a-z]{2,2})/hotel/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+# RULES DE MAPA
+RewriteRule ^([a-z]{2,2})/mappa $1/mappa.html [QSA,L]
+# CATEGORIES URL RULES
+RewriteRule ^([a-z]{2,2})/negozi $1/grid.html [QSA,L]
+RewriteRule ^([a-z]{2,2})/ristoranti-bar $1/grid.html [QSA,L]
+RewriteRule ^([a-z]{2,2})/tempo-libero-e-benessere $1/grid.html [QSA,L]
+RewriteRule ^([a-z]{2,2})/spettacoli-cinema $1/grid.html [QSA,L]
+RewriteRule ^([a-z]{2,2})/hotel $1/grid.html [QSA,L]
+
+
+# ERROR DOCUMENTS
+ErrorDocument 404: /404.php
+ErrorDocument 403: "No tiene permiso para acceder a esta pagina"
+ErrorDocument 500: "ERROR FATAL"

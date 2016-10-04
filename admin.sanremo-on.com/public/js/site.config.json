@@ -1,0 +1,21 @@
+{
+	"base":"/",
+	"idiomas" : [
+		{
+			"nombre":"Italiano",
+			"letras":"it"
+		},
+		{
+			"nombre":"Inglesi",
+			"letras":"en"
+		},
+		{
+			"nombre":"Frances",
+			"letras":"fr"
+		},
+		{
+			"nombre":"Ruso",
+			"letras":"ru"
+		}
+	]
+}

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Mapa</title>
+		<link href="/css/bootstraps.min.css" rel="stylesheet">
+		<link href="/css/bootstrap-select.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/css/fractionslider.css" />
+		<link rel="stylesheet" type="text/css" href="/css/jquery.mmenu.all.css" />
+		<link rel="stylesheet" href="/css/css.css">
+		<link rel="stylesheet" href="/css/responsive.css">
+		<link rel="stylesheet" href="/css/css.mapa.css">
+	</head>
+	<body>
+		<div id="header-container" class="Fixed">
+			<header id="header">
+				<div class="menu-movil visible-xs">
+					<!-- <img src="/images/responsive/Menu-Lineas.png" alt=""> -->
+					<a href="#mmovil" class="mm"><i class="fa fa-bars"></i></a>
+				</div>
+				<div class="logo" title="" ><img class="hidden-xs" src="/images/Logo-Sanremo-On.png" alt=""><img class="visible-xs" src="/images/responsive/Logo.png" alt=""></div>
+				<div id="global">
+					<ul class="membership">
+						<li>
+							<a data-target="#login_panel" data-toggle="modal" title="" href="#" data-original-title="Login" class="dropdown cambio" title="Registro ">
+								<span class="hidden-xs">Hai un account? Login &nbsp;</span> 
+								<div class="usuarioIcono"></div>
+							</a>
+						</li>
+						<!--// .membership.sign lzv -->
+					</ul>
+					<!--// .membership -->
+					<ul class="languages">
+						<li class="cambio" data-imgClass="idioma showIdiomas">
+							<a class="dropdown" href="#">
+								<span>Lingua </span>
+								<div class="idiomaIcono"></div>
+							</a>
+							<div class="idioma-ul">
+								<ul class="idiomas">
+									<li class="en">
+										<a title="Inglés" href="#">
+											<img src="/images/UK.png" alt="">
+											Inglés
+										</a>
+									</li>
+									<li class="es">
+										<a title="Italiano" href="#">
+											<img src="/images/Italiano.png" alt="">
+											Italiano
+										</a>
+									</li>
+									<li class="pt-br">
+										<a title="Frances" href="#">
+											<img src="/images/FRench.png" alt="">
+											Frances
+										</a>
+									</li>
+									<li class="ru">
+										<a title="Ruso" href="#">
+											<img src="/images/RUssian.png" alt="">
+											Ruso
+										</a>
+									</li>
+									<li class="zh-cn">
+										<a title="Chino" href="#">
+											<img src="/images/China.png" alt="">
+											Chino
+										</a>
+									</li>
+								</ul>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="navigation">
+					<nav>
+						<ul class="main">
+							<li class="home">
+								<a class="dropdown" title="" href="/it"><span><img src="/images/Home.png" alt=""> Home</span><i class="icon-cos-home"></i></a>
+							</li>
+							<li class="brands">
+								<a class="dropdown" title="Mapa Interactivo" href="mapa.html"><span><img src="/images/Mappa.png" alt=""> MAPPA INTERACTTIVA</span></a>
+								<a class="dropdown-mobile" title="" href=""><i class="icon-circle-arrow-right icon-white"></i></a>
+							</li>
+							<li class="offers">
+								<a class="dropdown" title="" href="grid.html"><span>SHOP</span></a>
+							</li>
+							<li class="your-visit">
+								<a class="dropdown" title="" href=""><span>FOOD & DRINK</span></a>
+							</li>
+							<li class="guest-services">
+								<a class="dropdown" title="" href=""><span>ACCOMODATION</span></a>
+								<a class="dropdown-mobile" title="" href=""><i class="icon-circle-arrow-right icon-white"></i></a>
+							</li>
+							<!--// .guest-services -->
+							<li class="chic-travel">
+								<a class="dropdown" title="" href=""><span>TEMPO LIBERO BENESSERE</span></a>
+								<a class="dropdown-mobile" title="" href=""><i class="icon-circle-arrow-right icon-white"></i></a>
+							</li>
+							<li class="chic-travel">
+								<a class="dropdown" title="" href=""><span>CINEMA E SPECTACOLI</span></a>
+								<a class="dropdown-mobile" title="" href=""><i class="icon-circle-arrow-right icon-white"></i></a>
+							</li>
+							<li class="whats-on">
+								<a class="dropdown" title="" href="services.html"><span>SERVICES</span></a>
+								<a class="dropdown-mobile" title="" href=""><i class="icon-circle-arrow-right icon-white"></i></a>
+							</li>
+							<li class="whats-on">
+								<a class="dropdown" title="" href="news.html"><span>SANREMO</span></a>
+								<a class="dropdown-mobile" title="" href=""><i class="icon-circle-arrow-right icon-white"></i></a>
+							</li>
+							<!-- <li class="membership sign-in visible-phone">
+								<a class="dropdown" title="Registro / Inicia sesión" href="/membership"><span>ATTUALITÀ </span></a>
+							</li> -->
+						</ul>
+					</nav>
+					<nav id="mmovil">
+						<ul>
+							<li>
+								<a href="/it">
+									<i class="fa fa-home"></i>
+									<span class="menusito">Home</span>
+								</a>
+							</li>
+							<li>
+								<a href="mapa.html">
+									<i class="fa fa-map-marker"></i>
+									<span class="menusito">Mappa Interactiva</span>
+								</a>
+							</li>
+							<li>
+								<a href="grid.html">
+									<img src="/images/responsive/Negozi.png" alt="" width="22" height="28">
+									<span class="menusito">Negozi</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-cutlery"></i>
+									<span class="menusito">Food and drink</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/images/responsive/Accomodation.png" alt="">
+									<span class="menusito">Accomodation</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/images/Cinema-e-Spectacoli.png" alt="">
+									<span class="menusito">Cinema e spectacoli</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="/images/responsive/Tempo-Libero.png" alt="">
+									<span class="menusito">Tempo Libero</span>
+								</a>
+							</li>
+							<li>
+								<a href="news.html">
+									<i class="fa fa-tags"></i>
+									<span class="menusito">New and Offfer</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-calendar-o"></i>
+									<span class="menusito">Eventi</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-info-circle"></i>
+									<span class="menusito">Informacion</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-sun-o"></i>
+									<span class="menusito">Conozca Sanremo</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-exclamation-circle"></i>
+									<span class="menusito">Aviso Legal</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-language"></i>
+									<span class="menusito">Cambie idioma</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>
+		<div class="wrapper">
+			<div class="container">
+				<div class="content">
+					<div class="cuerpo">
+						<div class="row hidden-xs">
+							<ol class="breadcrumb">
+								<li><a href="#">Home</a></li>
+								<li class="active">Mapa Interactivo</li>
+							</ol>
+						</div>
+						<div class="row filtros">
+							<div class="col-sm-3">
+								<span class="orange"><strong>22 CENTROS CERCA</strong></span>
+							</div>
+							<div class="col-sm-3 col-sm-offset-2">
+								<div class="form-group">
+									<input type="text" placeholder="Busque su producto" search class="search form-control">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<label for="categoria" class="col-sm-5 control-label hidden-xs">ORDENAR POR</label>
+									<select name="categoria" class="form-control selectpicker" id="categoria">
+										<option value="">Seleccione</option>
+										<option value="#">Norte</option>
+										<option value="#">Sur</option>
+										<option value="#">Seleccione</option>
+										<option value="#">Seleccione</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row barraMenu">
+							<ul>
+								<li class="mmenuSec Mextras">
+									<a href="#"><img src="/images/Lupa.png" alt=""> Buscar</a>
+									<div class="extras container" style="display:none">
+										<div class="row">
+											<div class="col-sm-3 col-xs-3 orange"><img src="/images/Negozi-naranja.png" alt="">Negozi</div>
+											<div class="col-sm-3 col-xs-3"><img src="/images/Negozi-negro.png" alt="">Negozi</div>
+											<div class="col-sm-3 col-xs-3"><img src="/images/Negozi-negro.png" alt="">Negozi</div>
+											<div class="col-sm-3 col-xs-3"><img src="/images/Negozi-negro.png" alt="">Negozi</div>
+										</div>
+											<div class="col-sm-3">
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+											</div>
+											<div class="col-sm-3">
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+											</div>
+											<div class="col-sm-3">
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+											</div>
+											<div class="col-sm-3">
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="">
+														Lorem ipsum.
+													</label>
+												</div>
+											</div>
+											<div class="col-sm-12 text-center bus">
+												<a href="#" class="btn btn-success gris">Buscar</a>
+											</div>
+											<div class="clearfix"></div>
+									</div>
+								</li>
+								<li class="mmenuSec"><a href="#"><img src="/images/Favoritos.png" alt="">Favoritos</a></li>
+								<li class="mmenuSec"><a href="#"><img src="/images/responsive/News-and-Offers.png" alt="">Oferta</a></li>
+								<li class="mmenuSec"><a href="#"><img src="/images/responsive/Informacion.png" alt="">Servicio</a></li>
+								<li class="mmenuSec"><a href="#"><img src="/images/Favoritos.png" alt="">Posición</a></li>
+							</ul>
+						</div>
+						<div class="row resultados">
+							<div class="col-sm-8 mapaG"></div>
+							<div class="col-sm-4 lugares"></div>
+						</div>
+						<div class="row banner">
+							<div class="slider-banner hidden-xs col-sm-12">
+								<div class="slide">
+									<img data-position="0,0" data-out="left" src="/images/banner.png" alt="">
+									<img data-position="0,470" data-out="left" src="/images/banner.png" alt="">
+								</div>
+								<div class="slide">
+									<img data-position="0,0"  src="/images/banner.png" alt="">
+									<img data-position="0,470"   src="/images/banner.png" alt="">
+								</div>
+							</div>
+							<div class="slider-banner-movil visible-xs col-sm-12">
+								<div class="slide">
+									<img data-position="0,0" data-out="left" src="/images/responsive/banner.png" alt="">
+									<img data-position="230,0" data-out="left" src="/images/responsive/banner.png" alt="">
+								</div>
+								<div class="slide">
+									<img data-position="0,0"  src="/images/responsive/banner.png" alt="">
+									<img data-position="230,0"   src="/images/responsive/banner.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-container">
+			<footer>
+				<div class="container">
+					<div class="row primero">
+						<div class="logoF"><img src="/images/Sanremo-On-Footer.png" alt=""></div>
+						<div class="mapaLogo"><img src="/images/Mappa.png" alt=""> Mappa Interactiva</div>
+					</div>
+					<div class="row segundo">
+						<div class="menu col-sm-7">
+							<div class="col-sm-3">
+								<span class="orange"><strong>Categoria</strong></span>
+								<ul>
+									<li><a href="#">Negozi</a></li>
+									<li><a href="#">Ristoranti</a></li>
+									<li><a href="#">Accomodation</a></li>
+									<li><a href="#">Tempo Libero</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<span class="orange"><strong>Attalita</strong></span>
+								<ul>
+									<li><a href="news.html">News</a></li>
+									<li><a href="#">Eventi</a></li>
+									<li><a href="#">Offerte</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<span class="orange"><strong>Rete Impresa</strong></span>
+								<ul>
+									<li><a href="#">Negozi</a></li>
+									<li><a href="#">Aderenti</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<span class="orange"><strong>Sanremo</strong></span>
+								<ul>
+									<li><a href="comoLlegar.html">Come raggiungere Sanremo</a></li>
+									<li><a href="mapa.html">Conosci Sanremo</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="social">
+							<p>Seguiti in:</p>
+							<a href="#"><img src="/images/Fb.png" alt=""></a>
+							<a href="#"><img src="/images/Twitter.png" alt=""></a>
+							<a href="#"><img src="/images/Youtube.png" alt=""></a>
+							<a href="#"><img src="/images/Google-+.png" alt=""></a>
+							<a href="#"><img src="/images/Pinterest.png" alt=""></a>
+						</div>
+					</div>
+					<div class="row ultimo">
+						<div class="copyright">
+							© Copyright - Sanremo On Rete di Impresa - p.iva 01615270087 - 2015 Tutti i diritti riservati
+							<div class="menuBottom">
+								<ul>
+									<li><a href="#">Contatti</a></li>
+									<li><a href="#">Politica di privacy</a></li>
+									<li><a href="#">Note Legali</a></li>
+									<li><a href="#">Cookie</a></li>
+								</ul>
+								<div class="clearfix"></div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div id="login_panel" class="modal fade in" style="display: none; ">
+			<div class="sombra fade in" data-dismiss="modal"></div>
+			<div class="modal-dialog modal-middle col-xs-12 col-sm-3 no-padding">
+				<div class="modal-content no-padding">
+					<div class="modal-header text-center">
+						<h4 id="myModalLabel" class="modal-title">
+							<img src="/images/responsive/Login.png">
+							SIGN INTO YOUR ACCOUNT
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						</h4>
+					</div>
+					<div class="modal-body">
+						<form role="form" method="post" name="login_form" id="login_form" action="#">
+								<div class="form-group">
+									<button class="btn btn-block btn-navy facebook_connect" type="button">
+										<i class="fa fa-facebook"></i> &nbsp;
+										<strong>Login with Facebook</strong>
+									</button>
+								</div>
+								<div class="form-group separator-text text-center">
+									<span>OR</span>
+								</div>
+							<div class="form-group">
+								<input type="text" required="" placeholder="Username" class="form-control" value="" id="username" name="log">
+							</div>
+							<div class="form-group">
+								<input type="password" required="" placeholder="Password" class="form-control" value="" id="password" name="pwd">
+							</div>
+							<!-- Login Button -->
+							<div class="form-group">
+								<div class="row">
+									<div class="col-md-12">
+										<span class="description">Your privacy is important to us and we will never rent or sell your information.</span>
+									</div><!-- /.col-md-12 -->
+								</div><!-- /.row -->
+								<div class="row">
+									<div class="col-md-12">
+										<input type="hidden" value="/directory/demo1/" name="redirect_to">
+										<button class="btn btn-block btn-danger" type="submit">
+											<strong>Login</strong>
+										</button>
+									</div><!-- /.col-md-12 -->
+								</div><!-- /.row -->
+							</div>
+
+							<hr class="padding-5px">
+
+							<!-- Sign up Button -->
+							<div class="form-group">
+								<div class="row">
+									<div class="col-md-12">
+
+																	<div class="well well-sm">
+											<small>Non sei ancora collegato, registrati.</small>
+										</div>
+																</div>
+								</div><!-- /.row -->
+							</div>
+
+						</form>
+					</div><!-- /.modal-body -->
+
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div>
+		<script src="/js/jquery-1.11.2.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/bootstrap-select.js"></script>
+		<script type="text/javascript" src="/js/jquery.mmenu.min.all.js"></script>
+		<script src="/js/jquery.mmenu.fixedelements.min.js"></script>
+		<script type="text/javascript" src="/js/retina.js"></script>
+		<script type="text/javascript" src="/js/jquery.fractionslider.min.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script>
+			var control = 1;
+		</script>
+		<script src="/js/js.mapa.js"></script>
+	</body>
+</html>

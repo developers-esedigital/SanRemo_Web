@@ -1,0 +1,479 @@
+.wrapper {
+	margin-top: 89px;
+}
+.breadcrumb > li + li::before {
+	content: "> ";
+}
+.btn.dropdown-toggle.selectpicker.btn-default {
+    color: rgb(153, 153, 166);
+}
+.breadcrumb {
+	text-transform: uppercase;
+	font-size: 11px;
+    background: none repeat scroll 0 0 #efefef;
+}
+.breadcrumb a {
+    color: rgb(119, 119, 119);
+}
+.markerr > img {
+    height: 41px;
+    width: 32px;
+}
+.labels{
+    color:#ffffff;
+    font-weight:bold;
+    font-size:17px;
+    margin-top: -35px !important;
+    margin-left: -4px !important;
+}
+.correo img {
+  margin-left: -5px;
+}
+.search {
+	background: url("../images/Search.png") no-repeat scroll 8px 7px #fff;
+	font-size: 11px;
+	padding-left: 30px;
+}
+.control-label {
+	font-size: 11px;
+	padding-top: 10px;
+}
+.btn-group.bootstrap-select.form-control {
+	width: 100%;
+}
+.row.filtros .col-sm-3:last-child {
+    padding-right: 0;
+}
+.filter-option.pull-left {
+	font-size: 11px;
+}
+.selectpicker span.text {
+	font-size: 11px;
+}
+.btn.gris {
+	background-color: #777776;
+	border-color: #777776;
+	color: #fff;
+	border-radius: 0px;
+	padding: 10px 30px;
+}
+.btn.gris.active, .btn.gris.focus, .btn.gris:active, .btn.gris:focus, .btn.gris:hover, .open > .dropdown-toggle.btn.gris {
+	background-color: #777776;
+	border-color: #777776;
+	color: #fff;
+}
+.bus {
+	margin-top: 30px;
+}
+.barraMenu .extras {
+	border: 5px solid rgb(201, 132, 13);
+}
+.extras label {
+	font-size: 11px;
+}
+.extras {
+	margin-top: -10px;
+	padding-bottom: 30px;
+}
+.row.barraMenu li > a {
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.row.barraMenu > ul {
+	background: none repeat scroll 0 0 rgb(8, 10, 28);
+	height: 45px;
+	list-style: outside none none;
+	padding: 0;
+	width: 100%;
+}
+.mmenuSec > a img {
+	margin-right: 5px;
+	margin-top: -3px;
+}
+.mmenuSec {
+    border-right: 1px dotted #fff;
+    float: left;
+    padding: 12.5px;
+    width: 20%;
+}
+.mmenuSec:hover {
+	background: none repeat scroll 0 0 rgb(201, 132, 13);
+}
+.mmenuSecHovered {
+	background: none repeat scroll 0 0 rgb(201, 132, 13);
+}
+.mmenuSec.Mextras:hover .extras {
+	background: none repeat scroll 0 0 #fff;
+	display: block !important;
+	margin-left: -12px;
+	margin-top: 12px;
+	position: absolute;
+	z-index: 99999;
+}
+.resultados .col-sm-3 > div {
+	border: 1px solid #ccc;
+	margin-bottom: 25px;
+}
+.row.resultados {
+	margin-top: 0;
+}
+.footer-container {
+	margin-top: 200px;
+}
+
+.mapaG {
+    height: 445px;
+    margin-top: -10px;
+}
+
+
+
+.extras .row .col-sm-3 {
+    border-bottom: 3px solid #727272;
+    padding-bottom: 10px;
+    font-size: 11px;
+}
+.extras .row .col-sm-3.orange {
+    border-bottom: 3px solid rgb(201, 132, 13);
+    padding-bottom: 10px;
+}
+.extras > .row {
+    padding: 30px 30px 10px;
+}
+
+.marker {
+    width: 440px;
+}
+.marker > img {
+    float: left;
+}
+.marker > div {
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
+    width: 150px;
+}
+.tipo.orange,.tipo.red {
+    float: right;
+    height: 18px;
+}
+.tipoI {
+    margin-bottom: 5px;
+    width: 15px;
+}
+.marker p {
+    font-size: 11px;
+}
+.marker .btn.orange {
+    margin-top: 10px;
+
+}
+
+.markerr span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -20px;
+/*     position: absolute; */
+    top: 5px;
+}
+.titulo {
+    margin-top: 3px;
+}
+
+.place .titulo {
+    margin-left: 39px;
+    margin-top: -33px;
+}
+
+.markerr {
+    /* position: absolute; */
+}
+.place .tipo {
+    float: right;
+    height: 10px;
+    position: relative;
+    right: 20px;
+    top: -22px;
+    width: 100px;
+}
+.place .tipo > img {
+    width: 19px;
+}
+.place .tipo .logo.orange,.place .tipo .logo.red {
+    margin: 0;
+    position: relative;
+    right: -1px;
+    top: -20px;
+}
+
+ span.logo.purple {
+
+    position: relative !important;
+    right: 5px !important;
+    font-size: 15px !important;
+}
+
+.tipo .logo {
+  margin-top: 0px;
+  text-align: left;
+  position: relative !important;
+  right: 5px !important;
+  font-size: 15px !important;
+}
+
+.contenido {
+    font-size: 11px;
+    margin: 22px auto 0 65px;
+    max-width: 208px;
+}
+.place {
+    border: 1px solid #e8e8e8;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 15px;
+}
+.titulo > strong {
+    text-transform: uppercase;
+}
+
+.row.botones {
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    height: 40px;
+    background: #fff
+}
+.lugares {
+    margin-top: -10px;
+}
+.row.resMapa {
+    height: 405px;
+    overflow-y: auto;
+}
+.extras .row .col-sm-15 {
+    border-bottom: 3px solid #727272;
+    font-size: 11px;
+    padding-bottom: 10px;
+
+}
+.extras .row .col-sm-15.orange{
+	border-bottom: 3px solid rgb(201, 132, 13);
+}
+
+.paginas {
+    margin: 8px auto;
+    overflow: hidden;
+    padding-left: 0;
+    width: 100px;
+}
+
+.paginas li {
+    float: left;
+    list-style: outside none none;
+    width: 20px;
+}
+.paginas li a {
+	color: #848484;
+    font-size: 11px;
+}
+.paginas li:last-child::after{
+	content: "";
+}
+.paginas li::after{
+	color: #848484;
+	content: " | "
+}
+
+.contenido p {
+    margin-bottom: 6px;
+}
+.mmenuSec .fa::before {
+    font-size: 17px;
+}
+.mmenuSec .fa.fa-map-marker::before {
+    font-size: 19px;
+}
+.mmenuSec .fa.fa-map-marker {
+    padding-right: 5px;
+}
+
+.extras.container {
+    margin-bottom: 10px;
+}
+.wrapper {
+    margin-top: 50px;
+}
+.tipo .logo.orange {
+    font-size: 12px;
+}
+.markerr {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.place .titulo {
+    margin-left: 65px;
+    margin-top: -31px;
+}
+.mmenuSec i {
+    margin-top: 1px;
+    position: absolute;
+}
+.menuNegro {
+    padding-left: 25px;
+}
+
+
+.filter-option.pull-left {
+    padding-top: 2px;
+}
+
+/* Responsive */
+@media (max-width:767px) {
+    .row.resMapa {
+    height:auto;
+    overflow-y: auto;
+}
+	body {
+		padding: 0 !important;
+	}
+	.content {
+		margin: 0 auto;
+/* 		width: 360px; */
+	}
+	.wrapper {
+		margin-top: 10px;
+	}
+	#global {
+		border-bottom: 1px solid #727272;
+	}
+	.btn-group.bootstrap-select.form-control {
+		width: 100%;
+	}
+	.filtros .col-sm-2 {
+		margin-bottom: 25px;
+	}
+	.mmenuSec {
+		width: 50%;
+	}
+	.row.barraMenu {
+		margin: 0 auto;
+/* 		width: 360px; */
+	}
+	.mmenuSec.Mextras:hover .extras {
+/* 		width: 360px; */
+	}
+	.resultados .col-sm-3 > div {
+		border: 1px solid #ccc;
+		margin: 0px;
+		padding: 9px 9px 9px 25px;
+	}
+	.visible-xs.textoB {
+		float: left;
+	}
+	.text-left.flechita {
+		float: right;
+		font-weight: bolder;
+	}
+	.footer-container {
+		margin-top: 50px;
+	}
+.mmenuSec {
+    border-bottom: 1px dotted #fff;
+    height: 44px;
+    width: 100%;
+}
+.row.barraMenu > ul {
+    height: 225px;
+}
+.mmenuSec:last-child {
+    border: medium none;
+}
+
+.lugares,.barraMenu {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 300px;
+}
+.row.barraMenu {
+    padding: 0 5px;
+}
+.col-sm-8.mapaG {
+    width: 100%;
+    height: 225px;
+}
+
+.row.filtros .col-sm-3:last-child {
+    padding-right: 15px;
+}
+.filtros .col-sm-3:first-child {
+    margin-bottom: 25px;
+}
+}
+
+
+
+@media (min-width:768px) and (max-width:979px) {
+.col-sm-8.mapaG {
+    margin-left: 30px;
+    margin-right: 0;
+    width: 55.3%;
+}
+.lugares,.barraMenu {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -10px;
+    width: auto;
+}
+.row.barraMenu {
+    padding: 0 15px;
+}
+.row.filtros {
+    margin: 0 15px;
+}
+
+.row.hidden-xs {
+    padding-left: 30px;
+}
+.row.filtros .col-sm-3:first-child .orange {
+    position: absolute;
+}
+.lugares, .barraMenu {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    width: auto;
+}
+.extras.container {
+    width: auto;
+}
+.row.resMapa {
+        margin-top: -10px !important;
+    }
+
+}
+
+@media(min-width: 780px ) and (max-width: 991){
+    .row.resMapa {
+        margin-top: -10px !important;
+    }
+}
+
+span.titulo{
+     font-size: 13px;
+     color: #333 !important;
+     text-transform: uppercase !important;
+     text-decoration: none !important;
+}
+
+.tipo{
+  float: left !important;
+  width: 100% !important;
+  height: 18px !important;
+  position: relative !important;
+  top: 2px!important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+}

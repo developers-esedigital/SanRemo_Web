@@ -1,0 +1,313 @@
+body {
+  background: #efefef;
+}
+.wrapper {
+  margin-top: 0;
+}
+.btn.dropdown-toggle.selectpicker.btn-default {
+  color: #9999a6;
+}
+/* #header-container {
+			background: none repeat scroll 0 0 #fff;
+			height: 150px;
+} */
+.mmenuSec .fa-star::before,
+.mmenuSec .fa-heart::before {
+  font-size: 15px;
+}
+.mmenuSec .fa-star,
+.mmenuSec .fa-heart {
+  margin-right: 5px;
+}
+.resultados .col-sm-3:nth-child(4n) img {
+  height: 144px !important;
+}
+.search {
+  background: url("../images/Search.png") no-repeat scroll 8px 7px #ffffff;
+  font-size: 11px;
+  padding-left: 30px;
+}
+.control-label {
+  font-size: 11px;
+  padding-top: 10px;
+  padding-left: 0;
+}
+.btn-group.bootstrap-select.form-control {
+  width: 100%;
+}
+.filter-option.pull-left {
+  font-size: 11px;
+}
+.selectpicker span.text {
+  font-size: 11px;
+}
+.filtros .col-sm-4 {
+  padding-right: 0;
+}
+.bus {
+  margin-top: 30px;
+}
+.barraMenu .extras {
+  border: 5px solid #c9840d;
+}
+.extras label {
+  font-size: 11px;
+}
+.typeahead.dropdown-menu {
+  width: 87%;
+}
+.extras {
+  margin-top: -10px;
+  padding-bottom: 30px;
+}
+.row.barraMenu li > a {
+  color: #fff;
+  font-size: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.row.barraMenu > ul {
+  background: none repeat scroll 0 0 #080a1c;
+  height: 43px;
+  list-style: outside none none;
+  padding: 0;
+  width: 100%;
+}
+.mmenuSec > a img {
+  margin-right: 5px;
+  margin-top: -3px;
+}
+.mmenuSec {
+  border-right: 1px dotted #fff;
+  float: left;
+  padding: 12px 20px;
+  text-align: center;
+}
+.row.filtros .col-sm-3:last-child {
+  padding-right: 0;
+}
+.mmenuSec:hover {
+  background: none repeat scroll 0 0 #c9840d;
+  padding-bottom: 12px;
+}
+.mmenuSecHovered {
+  background: none repeat scroll 0 0 #c9840d;
+}
+.resultados .col-sm-3 > div:hover {
+  opacity: 0.8;
+}
+/* .mmenuSec.Mextras:hover .extras {
+			background: none repeat scroll 0 0 #fff;
+			display: block !important;
+			margin-left: -12px;
+			margin-top: 12px;
+			position: absolute;
+			z-index: 1000;
+} */
+.resultados .col-sm-3 > div {
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+  background: none repeat scroll 0 0 #fff;
+  height: 150px;
+}
+.row.resultados {
+   margin-top: 17px;
+}
+.footer-container {
+  margin-top: 30px;
+}
+.resultados .col-sm-3 {
+  padding-left: 0;
+}
+.resultados .col-sm-3:nth-child(4n) {
+  padding-right: 0 !important;
+  margin-bottom: 1px;
+}
+.filtros .orange > strong {
+  font-size: 18px;
+}
+.barraMenu .extras.container {
+  padding-top: 20px;
+}
+.filtros .col-sm-2 > img {
+  margin-right: 5px;
+  margin-top: -8px;
+}
+.filter-option.pull-left {
+  padding-top: 2px;
+}
+/* Responsive */
+@media screen and (min-width: 980px) and (max-width: 991) {
+  .resultados .col-sm-3:nth-child(4n) img {
+    height: 128px;
+  }
+}
+/* @media (min-width:768px) and (max-width:979px) {
+	.resultados .col-sm-3:nth-child(4n) img {
+		height: 128px;
+	}
+} */
+@media (max-width: 767px) {
+  .row.filtros .col-sm-3:last-child {
+    padding-right: 15px;
+  }
+  body {
+    padding: 0 !important;
+  }
+  header {
+    background: none repeat scroll 0 0 #fff;
+    height: 50px;
+  }
+  .typeahead.dropdown-menu {
+    width: 91%;
+  }
+  .mmenuSec {
+    padding: 12px 5px;
+  }
+  .row.barraMenu > ul {
+    width: 100%;
+  }
+  .content {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .filtros .col-sm-4 {
+    padding-right: 15px;
+  }
+  #header-container {
+    background: none repeat scroll 0 0 #fff;
+    height: 50px;
+  }
+  .wrapper {
+    margin-top: 10px;
+  }
+  .resultados .col-sm-3:nth-child(4n) {
+    padding-right: 15px !important;
+  }
+  .resultados .col-sm-3 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  #global {
+    border-bottom: 1px solid #727272;
+  }
+  .btn-group.bootstrap-select.form-control {
+    width: 100%;
+  }
+  .filtros .col-sm-2 {
+    margin-bottom: 25px;
+  }
+  .mmenuSec:last-child {
+    border-right: medium none;
+  }
+  /* .row.resultados .col-sm-3 {
+			    margin-bottom: 1px;
+	} */
+  .mmenuSec {
+    width: 33.33333%;
+  }
+  .row.barraMenu {
+    margin: 0 15px;
+    width: auto;
+  }
+  .extras.container {
+    margin-left: 0;
+  }
+  .mmenuSec.Mextras:hover .extras {
+    width: 360px;
+  }
+  .resultados .col-sm-3 > div {
+    border: 1px solid #ccc;
+    margin: 0px;
+    padding: 9px 9px 9px 25px;
+    border-bottom: none;
+  }
+  .resultados .col-sm-3:last-child > div {
+    border: 1px solid #ccc;
+  }
+  .visible-xs.textoB {
+    float: left;
+    text-transform: uppercase !important;
+  }
+  .text-left.flechita {
+    float: right;
+    font-weight: bolder;
+  }
+  .footer-container {
+    margin-top: 50px;
+  }
+  .wrapper {
+    margin-top: 50px;
+  }
+  .row.filtros {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .row.resultados {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* .typeahead.dropdown-menu {
+			    width: 290px;
+	} */
+        
+  .resultados .col-sm-3 > div {
+   height: 41px !important;
+  }      
+  
+  .titulares-grid {
+   padding-left: 15px !important;
+   padding-right: 15px !important;
+   margin-bottom: 11px !important;
+  }
+        
+}
+
+@media screen and (min-width: 992px){
+    .resultados .col-sm-3:nth-child(4n) img {
+  height: 144px !important;
+  position: relative;
+  left: 9px;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .resultados .col-sm-3:nth-child(4n) img {
+    height: 127px !important;
+  }
+}
+@media screen and (min-width: 979px) and (max-width: 991px) {
+  .resultados .col-sm-3:nth-child(4n) img {
+    height: 127px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.resultados .col-sm-3 > div {
+ border: 1px solid #ccc;
+ margin-bottom: 25px;
+ background: none repeat scroll 0 0 #fff;
+ height: 129px !important;
+}
+}
+
+
+/* CONCDICION GRID COLUMNASx4 FIREFOX*/
+@-moz-document url-prefix() {
+    @media screen and (min-width: 767px) and (max-width: 991px) {
+    .col-sm-3{
+     width:24.9% !important;
+    } 
+    }
+    
+    
+ .filtros .orange > strong {
+ font-size: 16px !important;
+}
+
+.filtros .col-sm-4 {
+ padding-left: 0px !important;
+
+}
+}

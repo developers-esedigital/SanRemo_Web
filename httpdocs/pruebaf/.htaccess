@@ -1,0 +1,34 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+#RULES OFERTA
+RewriteRule ^([a-z]{2,2})/news/offerte/([a-zA-Z0-9_-]*)/([a-zA-Z0-9_-]*.html) $1/news/offerte/nome-offerta.php [QSA,L]
+#RULES NOTICIAS
+RewriteRule ^([a-z]{2,2})/news/attualita/([a-zA-Z0-9_-]*)/([a-zA-Z0-9_-]*.html) $1/news/attualita/nome-notizia.php [QSA,L]
+RewriteRule ^([a-z]{2,2})/news/attualita/([a-zA-Z0-9_-]*.html) $1/news/attualita/nome-notizia.php [QSA,L]
+#RULES EVENTO
+RewriteRule ^([a-z]{2,2})/news/eventi/([a-zA-Z0-9_-]*.html) $1/news/eventi/nome-evento.php [QSA,L]
+
+
+# MICROSITES URL RULES
+RewriteRule ^([a-z]{2,2})/negozi/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+RewriteRule ^([a-z]{2,2})/ristoranti-bar/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+RewriteRule ^([a-z]{2,2})/tempo-libero-e-benessere/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+RewriteRule ^([a-z]{2,2})/spettacoli-cinema/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+RewriteRule ^([a-z]{2,2})/hotel/([a-zA-Z0-9_-]*.html) $1/microsite.php [QSA,L]    
+# RULES DE MAPA
+RewriteRule ^([a-z]{2,2})/mappa $1/mappa.html [QSA,L]
+# CATEGORIES URL RULES
+RewriteRule ^([a-z]{2,2})/negozi $1/grid.html [QSA,L]
+RewriteRule ^([a-z]{2,2})/ristoranti-bar $1/grid.html [QSA,L]
+RewriteRule ^([a-z]{2,2})/tempo-libero-e-benessere $1/grid.html [QSA,L]
+RewriteRule ^([a-z]{2,2})/spettacoli-cinema $1/grid.html [QSA,L]
+RewriteRule ^([a-z]{2,2})/hotel $1/grid.html [QSA,L]
+
+
+# ERROR DOCUMENTS
+ErrorDocument 404: /404.php
+ErrorDocument 403: "No tiene permiso para acceder a esta pagina"
+ErrorDocument 500: "ERROR FATAL"

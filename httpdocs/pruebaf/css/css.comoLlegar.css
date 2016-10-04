@@ -1,0 +1,350 @@
+.wrapper {
+	margin-top: 89px;
+}
+.breadcrumb > li + li::before {
+	content: "> ";
+}
+.breadcrumb {
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.search {
+	background: url("../images/Search.png") no-repeat scroll 8px 7px rgba(0, 0, 0, 0);
+	font-size: 11px;
+	padding-left: 30px;
+}
+.control-label {
+	font-size: 11px;
+	padding-top: 10px;
+}
+.btn-group.bootstrap-select.form-control {
+	width: 58%;
+}
+.row.comoLlegarTabs {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.filter-option.pull-left {
+	font-size: 11px;
+}
+.selectpicker span.text {
+	font-size: 11px;
+}
+.btn.gris {
+	background-color: #777776;
+	border-color: #777776;
+	color: #fff;
+	border-radius: 0px;
+	padding: 10px 30px;
+}
+.btn.gris.active, .btn.gris.focus, .btn.gris:active, .btn.gris:focus, .btn.gris:hover, .open > .dropdown-toggle.btn.gris {
+	background-color: #777776;
+	border-color: #777776;
+	color: #fff;
+}
+.bus {
+	margin-top: 30px;
+}
+.barraMenu .extras {
+	border: 5px solid rgb(201, 132, 13);
+}
+.extras label {
+	font-size: 11px;
+}
+.extras {
+	margin-top: -10px;
+	padding-bottom: 30px;
+}
+.row.barraMenu li > a {
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.row.barraMenu > ul {
+	background: none repeat scroll 0 0 rgb(8, 10, 28);
+	height: 45px;
+	list-style: outside none none;
+	padding: 0;
+	width: 100%;
+}
+.mmenuSec > a img {
+	margin-right: 5px;
+	margin-top: -3px;
+}
+.mmenuSec {
+	border-right: 1px dotted #fff;
+	float: left;
+	padding: 12.5px;
+	width: 20%;
+}
+.mmenuSec:hover {
+	background: none repeat scroll 0 0 rgb(201, 132, 13);
+}
+.mmenuSecHovered {
+	background: none repeat scroll 0 0 rgb(201, 132, 13);
+}
+.mmenuSec.Mextras:hover .extras {
+	background: none repeat scroll 0 0 #fff;
+	display: block !important;
+	margin-left: -12px;
+	margin-top: 12px;
+	position: absolute;
+	z-index: 99999;
+}
+.resultados .col-sm-3 > div {
+	border: 1px solid #ccc;
+	margin-bottom: 25px;
+}
+.row.resultados {
+	margin-top: 30px
+}
+.footer-container {
+	margin-top: 200px;
+}
+.mapaG {
+	height: 480px;
+}
+.extras .row .col-sm-3 {
+	border-bottom: 3px solid #727272;
+	padding-bottom: 10px;
+	font-size: 11px;
+}
+.extras .row .col-sm-3.orange {
+	border-bottom: 3px solid rgb(201, 132, 13);
+	padding-bottom: 10px;
+}
+.extras > .row {
+	padding: 30px 30px 10px;
+}
+.marker {
+	width: 440px;
+}
+.marker > img {
+	float: left;
+}
+.marker > div {
+	float: left;
+	margin-left: 20px;
+	margin-right: 50px;
+	width: 150px;
+}
+.tipo.orange, .tipo.red {
+	float: right;
+	height: 18px;
+}
+.tipoI {
+	margin-bottom: 5px;
+	width: 15px;
+}
+.marker p {
+	font-size: 11px;
+}
+.marker .btn.orange {
+	margin-top: 10px;
+}
+.markerr span {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: -20px;
+	position: absolute;
+	top: 5px;
+}
+.titulo {
+	margin-top: 3px;
+}
+.place .titulo {
+	margin-left: 39px;
+	margin-top: 10px;
+}
+.markerr {
+	position: absolute;
+}
+.place .tipo {
+	float: right;
+	height: 10px;
+	position: relative;
+	right: 20px;
+	top: -20px;
+	width: 100px;
+}
+.place .tipo > img {
+	width: 19px;
+}
+.place .tipo .logo.orange, .place .tipo .logo.red {
+	margin: 0;
+	position: relative;
+	right: -1px;
+	top: -20px;
+}
+.contenido {
+	font-size: 11px;
+	margin: 22px auto 0;
+	max-width: 208px;
+}
+.place {
+	border: 1px solid #ccc;
+	width: 100%;
+}
+.mapaSanRemo {
+	height: 450px;
+}
+.row.caja {
+	background: none repeat scroll 0 0 #000;
+	color: #fff;
+	font-size: 11px;
+	line-height: 30px;
+	padding-left: 30px;
+}
+#search {
+	background: url("../images/flecha.png") no-repeat scroll 100% 0 #fff;
+	border: 1px solid #fff;
+	color: #000;
+}
+li.active a {
+	background: none repeat scroll 0 0 rgb(201, 132, 13) !important;
+	color: #fff !important;
+}
+.row.tabs {
+	margin-top: 50px;
+}
+.tab-content {
+	border: 3px solid rgb(201, 132, 13);
+	padding: 30px;
+}
+li.active a {
+	background: none repeat scroll 0 0 rgb(201, 132, 13) !important;
+	color: #fff !important;
+	border: 1px solid rgb(201, 132, 13) !important;
+}
+.nav-tabs > li > a:hover {
+	border: 1px solid !important;
+}
+.nav-tabs > li.active > a:hover {
+	border: 1px solid rgb(201, 132, 13) !important;
+}
+.tabs ul a {
+	color: #000;
+	height: 50px;
+}
+.ico-blanco {
+	display: none;
+	float: left;
+}
+li.active .ico-blanco {
+	display: block;
+}
+li.active .ico-negro {
+	display: none;
+}
+.nav.nav-tabs > li {
+	font-size: 11px;
+}
+.tabs ul a {
+	border: 1px solid;
+	border-radius: 0;
+	color: #000;
+	height: 50px;
+	margin: 0;
+}
+.row {
+	margin-left: -10px;
+	margin-right: -5px;
+}
+.row.tabs [role="tab"] span {
+    float: right;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+/* Responsive */
+@media (max-width:767px) {
+	body {
+		padding: 0 !important;
+	}
+	#search {
+		width: 100%;
+	}
+	.nav.nav-tabs {
+		height: 50px;
+		max-width: 100%;
+	}
+	.row.tabs [role="tab"] span {
+		float: left;
+		margin-left: 37px;
+		margin-top: -27px;
+		position: relative;
+	}
+	.nav.nav-tabs > li {
+		max-width: 33%;
+	}
+	.content {
+		margin: 0 auto;
+		width: 360px;
+	}
+	.wrapper {
+		margin-top: 10px;
+	}
+	#global {
+		border-bottom: 1px solid #727272;
+	}
+	.btn-group.bootstrap-select.form-control {
+		width: 100%;
+	}
+	.filtros .col-sm-2 {
+		margin-bottom: 25px;
+	}
+	.mmenuSec {
+		width: 50%;
+	}
+	.row.barraMenu {
+		margin: 0 auto;
+		width: 360px;
+	}
+	.mmenuSec.Mextras:hover .extras {
+		width: 360px;
+	}
+	.resultados .col-sm-3 > div {
+		border: 1px solid #ccc;
+		margin: 0px;
+		padding: 9px 9px 9px 25px;
+	}
+	.visible-xs.textoB {
+		float: left;
+	}
+	.text-left.flechita {
+		float: right;
+		font-weight: bolder;
+	}
+	.footer-container {
+		margin-top: 50px;
+	}
+	.mmenuSec {
+		border-bottom: 1px dotted #fff;
+		height: 44px;
+		width: 100%;
+	}
+	.row.barraMenu > ul {
+		height: 225px;
+	}
+	.mmenuSec:last-child {
+		border: medium none;
+	}
+	.mapaG {
+		height: 295px;
+	}
+}
+@media (min-width:768px) and (max-width:979px) {
+	.wrapper {
+		margin-top: 50px;
+	}
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	/* .row.mapaSanRemo, .row.comoLlegarTabs {
+		    	margin: 0 15px;
+	} */
+}

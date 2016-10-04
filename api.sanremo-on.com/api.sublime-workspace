@@ -1,0 +1,1194 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"link",
+				"linkedin"
+			],
+			[
+				"lin",
+				"linkedin"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"categorias",
+				"removeAllCategorias"
+			],
+			[
+				"getIde",
+				"getIdmicrosite"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"con",
+				"construct	CI - Class Constructor"
+			],
+			[
+				"load",
+				"load_model	CI - Load Model"
+			],
+			[
+				"key",
+				"keyup	Event"
+			],
+			[
+				"categori",
+				"categoria"
+			],
+			[
+				"categoria",
+				"categoriaNombre"
+			],
+			[
+				"ind",
+				"indexOf(${0:searchValue})	String"
+			],
+			[
+				"appe",
+				"appendChild(${0:aChild})	Node"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"cons",
+				"console.log('$0');"
+			],
+			[
+				"getId",
+				"getIdmicrosite"
+			],
+			[
+				"find",
+				"findOneBy"
+			],
+			[
+				"id",
+				"iduser"
+			],
+			[
+				"mode",
+				"ModelMarca"
+			],
+			[
+				"plu",
+				"plugins	Document"
+			],
+			[
+				"rea",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"micro",
+				"microsite"
+			],
+			[
+				"sub",
+				"subcategoria"
+			],
+			[
+				"evt",
+				"dispatchEvent(${0:event})	EventTarget"
+			],
+			[
+				"base64_",
+				"base64_encode"
+			],
+			[
+				"enco",
+				"base64_encode"
+			],
+			[
+				"name",
+				"nameGal"
+			],
+			[
+				"inner",
+				"innerHTML	Element"
+			],
+			[
+				"disp",
+				"display	Style CSS"
+			],
+			[
+				"getElemen",
+				"getElementsByTagName(${0:name})	Element"
+			],
+			[
+				"Model",
+				"ModelMicrosite"
+			],
+			[
+				"model",
+				"Modelcategoria"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"re",
+				"ready	$(document).ready"
+			],
+			[
+				"get",
+				"getjson	$.getjson()"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"text",
+				"textStatus"
+			],
+			[
+				"_SESI",
+				"_SESSION"
+			],
+			[
+				"s",
+				"session"
+			],
+			[
+				"base_",
+				"base64_decode"
+			],
+			[
+				"apelli",
+				"apellidoMaterno"
+			],
+			[
+				"file_",
+				"file_ext"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"loa",
+				"load_model	CI - Load Model"
+			],
+			[
+				"e",
+				"each	.each()"
+			],
+			[
+				"na",
+				"nacionalidades"
+			],
+			[
+				"lang",
+				"language"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"logo",
+				"logo-img"
+			],
+			[
+				"change",
+				"changeImage"
+			],
+			[
+				"chan",
+				"changeImage"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"z",
+				"z	z-index"
+			],
+			[
+				"mmenus",
+				"mmenuSecHovered"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"at",
+				"attr	.attr() - single"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"template",
+				"templateUrl"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"mme",
+				"mmenuSecHovered"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"un",
+				"unbind	.unbind()"
+			],
+			[
+				"toggle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"conte",
+				"contenido"
+			],
+			[
+				"mm",
+				"mmenuSecHovered"
+			],
+			[
+				"mouse",
+				"mouseleave	.mouseleave()"
+			],
+			[
+				"slide",
+				"slideDown	.slideDown()"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"select",
+				"selectpicker"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"col-",
+				"col-sm-7"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"br",
+				"border-bottom"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"back",
+				"backgroundColor"
+			],
+			[
+				"c",
+				"css	.css() - single"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/views/welcome_message.php",
+			"settings":
+			{
+				"buffer_size": 832,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "micro.`facebook`,\nmicro.`twitter`,\nmicro.`google`,\nmicro.`linkedin`,\nmicro.`pinterest`,\nmicro.`instragram`,\nmicro.`micrositecol`,\nmicro.`micrositecol1`,\nmicro.`micrositecol2`,\nmicro.`micrositecol3`,\nmicro.`micrositecol4`,\nmicro.`micrositecol5`,\nmicro.`micrositecol6`,\nmicro.`micrositecol7`,\nmicro.`micrositecol8`,\nmicro.`micrositecol9`",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Windows",
+				"name": "micro.`facebook`,"
+			}
+		},
+		{
+			"file": "application/models/modelmicrosite.php",
+			"settings":
+			{
+				"buffer_size": 14581,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/models/Entities/Microsite.php",
+			"settings":
+			{
+				"buffer_size": 20176,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 6356,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "facebook\n`twitter`,\n`google`,\n`linkedin`,\n`pinterest`,\n`instragram`,\n`micrositecol`,\n`micrositecol1`,\n`micrositecol2`,\n`micrositecol3`,\n`micrositecol4`,\n`micrositecol5`,\n`micrositecol6`,\n`micrositecol7`,\n`micrositecol8`,\n`micrositecol9`,",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"plai",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lin",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"fon",
+				"Format CSS: Expanded"
+			],
+			[
+				"sf",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sfto",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"fo",
+				"Format CSS: Expanded"
+			],
+			[
+				"",
+				"Dummy Image: Insert Image"
+			],
+			[
+				"for",
+				"Format CSS: Expanded"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Commit"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/sanremoApi/index.php",
+		"/C/xampp/htdocs/sanremoApi/application/controllers/service.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/modelmicrosite.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/config.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/modelevento.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/modelofertas.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/modelnoticias.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/Entities/Noticia.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/Entities/Microsite.php",
+		"/C/xampp/htdocs/sanremoApi/.htaccess",
+		"/C/xampp/htdocs/sanremoApi/application/libraries/Doctrine.php",
+		"/C/xampp/htdocs/sanremoApi/application/config/database.php",
+		"/C/xampp/htdocs/travelTale/application/config/database.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/register.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/modelcategoria.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/Entities/Oferta.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/Entities/Evento.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/Entities/Categoria.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/Entities/User.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Microsite.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/modelbanner.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/Entities/Marca.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/Entities/Banner.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/modelexperiencia.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/modelmarca.php",
+		"/C/xampp/htdocs/sanremoApi/system/core/Common.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/modelservicio.php",
+		"/C/xampp/htdocs/sanremoApi/application/models/Entities/Servicio.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/welcome.php",
+		"/C/xampp/htdocs/sanremoApi/application/controllers/welcome.php",
+		"/C/Users/eon2/Downloads/quetaluncambio_com_mx_wordpress_3.sql",
+		"/C/xampp/htdocs/sanremoApi/application/config/autoload.php",
+		"/C/Users/eon2/AppData/Local/Temp/Rar$DIa0.977/addCategoria.php",
+		"/C/xampp/htdocs/ttt/application/controllers/api/example.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/database.php",
+		"/C/xampp/htdocs/sanremoApi/application/config/routes.php",
+		"/C/xampp/htdocs/sanremoApi/application/libraries/REST_Controller.php",
+		"/C/xampp/htdocs/sanremoApi/application/controllers/api/services.php",
+		"/C/xampp/htdocs/ttt/system/core/Common.php",
+		"/C/xampp/htdocs/ttt/application/config/config.php",
+		"/C/xampp/htdocs/ttt/application/config/routes.php",
+		"/C/xampp/htdocs/ttt/application/controllers/welcome.php",
+		"/C/xampp/htdocs/ttt/application/config/autoload.php",
+		"/C/xampp/htdocs/sanremoApi/application/config/config.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/services.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/hooks/gestion_sesion.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/autoload.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addMicrosite.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/rest.php",
+		"/C/Users/eon2/Documents/datosTrabajo",
+		"/C/xampp/htdocs/sanremoAdmin/application/config/routes.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelmicrosite.php",
+		"/C/Users/eon2/Downloads/codeigniter-restserver-2.7.1/codeigniter-restserver-2.7.1/application/config/rest.php",
+		"/C/Users/eon2/Downloads/codeigniter-restserver-2.7.1/codeigniter-restserver-2.7.1/application/config/config.php",
+		"/C/Users/eon2/Downloads/codeigniter-restserver-2.7.1/codeigniter-restserver-2.7.1/application/config/autoload.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editMicrosite.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addNoticias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editNoticias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addEvento.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editEvento.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addOfertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editOfertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Evento.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Oferta.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/index2.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/index3.php",
+		"/C/Users/eon2/AppData/Local/Temp/fz3temp-1/admin.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/admin.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Noticia.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelevento.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelofertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelnoticias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/evt.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/ofer.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/not.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/micro.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allMicrosites.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/register.php",
+		"/C/demo/www/js/controllers.js",
+		"/C/Users/eon2/Downloads/codeigniter-restserver-2.7.1/codeigniter-restserver-2.7.1/application/libraries/REST_Controller.php",
+		"/C/demo/www/js/services.js",
+		"/C/demo/www/js/app.js",
+		"/C/demo/www/templates/cal.html",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/register.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/User.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/register2.php",
+		"/C/xampp/htdocs/sanremoAdmin/public/js/js.js",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allOfertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/public/js/tabla.js",
+		"/C/xampp/htdocs/travelTale/application/models/register.php",
+		"/C/xampp/htdocs/travelTale/application/controllers/admin.php",
+		"/C/xampp/htdocs/travelTale/application/views/register.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allNoticias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allCategorias.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/libraries/Doctrine.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editUser.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/marc.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelmarca.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allMarcas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addMarca.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editMarca.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allInvitados.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Marca.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/allEventos.php",
+		"/C/xampp/htdocs/sanremoAdmin/public/css/style.css",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/addCategoria.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/cat.php",
+		"/C/Users/eon2/Downloads/jquery-validation-1.13.1/demo/index.html",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/editCategoria.php",
+		"/C/Users/eon2/Downloads/jquery-validation-1.13.1/demo/requirejs/app.js",
+		"/C/xampp/htdocs/sanremoAdmin/.htaccess",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/ofertas.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/.htaccess",
+		"/C/xampp/htdocs/sanremoAdmin/application/views/config.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/ofertas",
+		"/C/xampp/htdocs/sanremoAdmin/application/controllers/noticias.php",
+		"/C/Users/eon2/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/eon2/AppData/Local/Temp/fz3temp-1/allMicrosites.php",
+		"/C/Users/eon2/AppData/Local/Temp/fz3temp-1/micro.php",
+		"/C/xampp/htdocs/sanremoAdmin/public/css/admin.css",
+		"/C/xampp/htdocs/sanremoOn/mapa.html",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/modelcategoria.php",
+		"/C/xampp/htdocs/sanremoAdmin/application/models/Entities/Categoria.php",
+		"/C/xampp/htdocs/travelTale/public/js/js.js",
+		"/C/xampp/htdocs/sanremoOn/index.html",
+		"/C/xampp/htdocs/travelTale/application/views/formExperiencia.php",
+		"/C/Users/eon2/Downloads/AdminLTE-2.0.5/AdminLTE-2.0.5/pages/forms/advanced.html",
+		"/C/xampp/htdocs/sanremoAdmin/public/js/Admin.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"development",
+			"facebook",
+			"linkedin",
+			"facebook",
+			"facebook1",
+			"getFacebook",
+			"setFacebook",
+			"Facebook",
+			"micrositecol7",
+			"facebook",
+			"//",
+			"`microsite`",
+			"microsite",
+			"sanremo.",
+			"localhost",
+			"login",
+			"nombre",
+			"getNombre",
+			"getMicrosite",
+			"setMicrosite",
+			"ofertas",
+			"users",
+			"user",
+			"value",
+			"categoriafk",
+			"Microsite",
+			"microsite",
+			"( select categoriaMicrosite.categoriafk from sanremo.categoriaMicrosite where categoriaMicrosite.micrositefk = microsite.idmicrosite limit 1) categoria",
+			"DISTINCT",
+			"distinc",
+			"\n		",
+			"oferta",
+			"setId",
+			"setIdmi",
+			"if(!$this->get('id')){\n			$this->response(NULL, 400);\n		}",
+			"evento",
+			"ModelEvento",
+			"ModelNoticias",
+			"ModelMicrosite",
+			"private",
+			"categorias",
+			"marcas",
+			"');\n",
+			"setCategoriafk",
+			"private",
+			"ModelServicio",
+			"Modelservicio",
+			"ModelServicio",
+			"servicio_",
+			"idmicrosite",
+			"id",
+			"msM",
+			"FROM",
+			"a.",
+			"a",
+			"`microsite`",
+			"Modelcategoria",
+			"marca",
+			"Modelcategoria",
+			"categorias",
+			"categoriafk",
+			"micrositefk",
+			"categoriafk",
+			"micrositefk",
+			"id",
+			"bp",
+			"name",
+			"users",
+			"setcategoria",
+			"categoriafk",
+			"getId",
+			"categoriafk",
+			"idcate",
+			"ofertas",
+			"getIdmicrosite",
+			"getIdmicrostie",
+			"array",
+			"arrayCollect",
+			"arrayCollection",
+			"oferta",
+			"Direccion",
+			"direccion",
+			"private",
+			"Modelservicio",
+			"ModelServicio",
+			"Marca",
+			"marca",
+			"Marca",
+			"marca",
+			"Marca",
+			"marca",
+			"Marca",
+			"marca",
+			"Marca",
+			"marca",
+			"Marca",
+			"marca",
+			"Marca",
+			"marca",
+			"Marca",
+			"idmarca",
+			"Modelmarca",
+			"categoria",
+			"user",
+			"Modeluser",
+			"categoria",
+			"Categorias",
+			"Microsite",
+			"microsite",
+			"Microsite",
+			"microsite",
+			"Microsite",
+			"microsite",
+			"Microsite",
+			"microsite",
+			"Microsite",
+			"microsite",
+			"Microsite",
+			"microsite",
+			"Microsite",
+			"microsite",
+			"Modeloferta",
+			"Microsite",
+			"microsite",
+			"Microsite",
+			"microsite",
+			"Microsite",
+			"microsite"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"if(!$this->get('id') && !$this->get('url')){\n			$this->response(NULL, 400);\n		}",
+			"public/images",
+			"#e8e8e8"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/views/welcome_message.php",
+					"settings":
+					{
+						"buffer_size": 832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								564,
+								564
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								0
+							],
+							[
+								34,
+								18
+							],
+							[
+								50,
+								35
+							],
+							[
+								68,
+								51
+							],
+							[
+								87,
+								69
+							],
+							[
+								107,
+								88
+							],
+							[
+								129,
+								108
+							],
+							[
+								152,
+								130
+							],
+							[
+								175,
+								153
+							],
+							[
+								198,
+								176
+							],
+							[
+								221,
+								199
+							],
+							[
+								244,
+								222
+							],
+							[
+								267,
+								245
+							],
+							[
+								290,
+								268
+							],
+							[
+								313,
+								291
+							],
+							[
+								335,
+								314
+							]
+						],
+						"settings":
+						{
+							"auto_name": "micro.`facebook`,",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/models/modelmicrosite.php",
+					"settings":
+					{
+						"buffer_size": 14581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2641,
+								2641
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2046.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/models/Entities/Microsite.php",
+					"settings":
+					{
+						"buffer_size": 20176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5499,
+								5499
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 20135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 6356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.8,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 259.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/sanremoAdmin/sanremoAdmin.sublime-project"
+			],
+			[
+				"admin",
+				"/C/xampp/htdocs/sanremoAdmin/sanremoAdmin.sublime-project"
+			],
+			[
+				"ad",
+				"/C/xampp/htdocs/sanremoAdmin/sanremoAdmin.sublime-project"
+			],
+			[
+				"san",
+				"/C/xampp/htdocs/sanremo/sanremo.sublime-project"
+			],
+			[
+				"app",
+				"/C/sanremoApp/sanremoApp.sublime-project"
+			],
+			[
+				"api",
+				"/C/xampp/htdocs/sanremoApi/api.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true
+}
